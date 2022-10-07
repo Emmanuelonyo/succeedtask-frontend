@@ -106,7 +106,7 @@ async function uploadVideo(recordedBlobs){
      * @url localhost:3000
      */
       
-      fetch("http://localhost:3000/api/v1/submit", {
+      fetch("https://succeed-task-backend.onrender.com/api/v1/submit", {
         method: "POST",
         body: formdata
       })
